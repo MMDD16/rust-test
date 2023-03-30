@@ -6,3 +6,16 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+
+[[bin]]
+name = "my-traffic"
+path = "src/Traffic.rs"
+
+[[bin]]
+name = "my-option"
+path = "src/option.rs"
+
+[[bin]]
+name = "my-area"
+path= "src/area.rs"
