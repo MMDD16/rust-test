@@ -1,0 +1,11 @@
+[package]
+name = "DingYueEvent"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+polkadot-js-api = { git = "https://github.com/polkadot-js/api.git", tag = "v7.8.1", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib"]
